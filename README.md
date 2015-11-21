@@ -8,8 +8,8 @@ on-line. Feel free to use it however you may.
 Use [vundle](https://github.com/VundleVim/Vundle.vim).
 
 ```
-Bundle 'cprn/vim-colors-nobg'
-:BundleInstall!
+Plugin 'cprn/vim-colors-nobg'
+:PluginInstall!
 ```
 
 ## terminal configuration
