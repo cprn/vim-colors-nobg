@@ -24,9 +24,9 @@ hi DiffChange      cterm=none           ctermfg=Black      ctermbg=Gray
 hi DiffDelete      cterm=none           ctermfg=White      ctermbg=DarkRed
 hi DiffText        cterm=bold           ctermfg=White      ctermbg=Gray
 hi ErrorMsg        cterm=none           ctermfg=White      ctermbg=DarkRed
-hi VertSplit       cterm=reverse
-hi Folded          cterm=bold           ctermfg=Cyan       ctermbg=NONE
-hi FoldColumn      cterm=none           ctermfg=Green      ctermbg=NONE
+hi VertSplit       cterm=none           ctermfg=Black      ctermbg=none
+hi Folded          cterm=bold           ctermfg=Cyan       ctermbg=none
+hi FoldColumn      cterm=none           ctermfg=Green      ctermbg=none
 hi IncSearch       cterm=none           ctermfg=White      ctermbg=Black
 hi LineNr          cterm=none           ctermfg=Yellow
 hi MatchParen      cterm=bold,underline ctermbg=NONE
@@ -38,7 +38,7 @@ hi PmenuSel        cterm=none           ctermfg=Black      ctermbg=Grey
 hi PmenuSbar       cterm=none           ctermfg=Black      ctermbg=Grey
 hi PmenuThumb      cterm=reverse
 hi Question        cterm=none           ctermfg=Green
-hi Search          cterm=reverse        ctermfg=fg         ctermbg=NONE
+hi Search          cterm=reverse        ctermfg=fg         ctermbg=none
 hi SpecialKey      cterm=none           ctermfg=LightRed
 hi SpellBad        ctermbg=Red
 hi SpellCap        ctermbg=Blue
@@ -83,6 +83,8 @@ hi DiffChange      cterm=none           ctermfg=none       ctermbg=0
 hi DiffText        cterm=none           ctermfg=1          ctermbg=0
 hi DiffAdd         cterm=none           ctermfg=none       ctermbg=0
 hi DiffDelete      cterm=none           ctermfg=10         ctermbg=0
+
+hi SignColumn      cterm=none           ctermfg=1          ctermbg=none
 
 hi SpellBad        cterm=underline      ctermfg=1          ctermbg=none
 hi SpellLocal      cterm=underline      ctermfg=14         ctermbg=none
