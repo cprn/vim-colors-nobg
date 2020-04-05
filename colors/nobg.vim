@@ -15,7 +15,7 @@ set cursorline
 set t_Co=256
 
 
-hi Normal          cterm=none           ctermfg=Gray       ctermbg=NONE
+hi Normal          cterm=none           ctermfg=Gray       ctermbg=none
 hi CursorColumn    cterm=reverse
 hi CursorLine      cterm=none           ctermfg=none       ctermbg=8
 hi Directory       cterm=none           ctermfg=White
