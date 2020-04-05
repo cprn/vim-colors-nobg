@@ -17,7 +17,7 @@ set t_Co=256
 
 hi Normal          cterm=none           ctermfg=Gray       ctermbg=none
 hi CursorColumn    cterm=reverse
-hi CursorLine      cterm=none           ctermfg=none       ctermbg=8
+hi CursorLine      cterm=none           ctermfg=none       ctermbg=16
 hi Directory       cterm=none           ctermfg=White
 hi DiffAdd         cterm=none           ctermfg=White      ctermbg=DarkCyan
 hi DiffChange      cterm=none           ctermfg=Black      ctermbg=Gray
