@@ -1,15 +1,16 @@
 # vim-colors-nobg
 A color scheme for Vim run in a terminal (meant to be used with a console - no
-gui support). Works best with a semi-transparent black background and a
-solarized color palette. Put together from many scraps of schemes available
-on-line. Feel free to use it however you may.
+gui support). Works best with a semi-transparent dark background and a
+solarized color palette. Feel free to use it however you may.
 
 ## installation
-Use [vundle](https://github.com/VundleVim/Vundle.vim).
+Use [vim-plug](https://github.com/junegunn/vim-plug).
 
 ```
-Plugin 'cprn/vim-colors-nobg'
-:PluginInstall!
+call plug#begin()
+Plug 'cprn/vim-colors-nobg'
+call plug#end()
+:source $MYVIMRC | PlugInstall
 ```
 
 ## terminal configuration
