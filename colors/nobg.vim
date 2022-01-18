@@ -75,7 +75,7 @@ hi Debug           cterm=none           ctermfg=White      ctermbg=Black
 hi Underlined      cterm=underline
 hi Ignore          cterm=none           ctermfg=DarkBlue
 hi Error           cterm=none           ctermfg=White      ctermbg=DarkRed
-hi Todo            cterm=none           ctermfg=Black      ctermbg=Gray
+hi Todo            cterm=bold           ctermfg=White      ctermbg=Gray
 
 hi Search          cterm=none           ctermfg=none       ctermbg=0
 
