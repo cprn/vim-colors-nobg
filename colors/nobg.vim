@@ -1,28 +1,26 @@
 " Vim color file
 "
-" Meant to be used with console. Put together from many scraps of schemes
-" available on-line. Feel free to use it however you may. Works best with a
-" semi-transparent black background and a solarized terminal color palette.
+" Meant to be used in terminal with a semi-transparent background. Put
+" together from many scraps of schemes available on-line. Feel free to use it
+" however you may.
 
 hi clear
 
 let g:colors_name="nobg"
 
-syntax reset
+if exists('syntax_on')
+    syntax reset
+endif
 
 set background=dark
 set cursorline
-set t_Co=256
+" set t_Co=256
 
 
 hi Normal          cterm=none           ctermfg=Gray       ctermbg=none
 hi CursorColumn    cterm=reverse
 hi CursorLine      cterm=none           ctermfg=none       ctermbg=16
 hi Directory       cterm=none           ctermfg=White
-hi DiffAdd         cterm=none           ctermfg=White      ctermbg=DarkCyan
-hi DiffChange      cterm=none           ctermfg=Black      ctermbg=Gray
-hi DiffDelete      cterm=none           ctermfg=White      ctermbg=DarkRed
-hi DiffText        cterm=bold           ctermfg=White      ctermbg=Gray
 hi ErrorMsg        cterm=none           ctermfg=White      ctermbg=DarkRed
 hi VertSplit       cterm=none           ctermfg=Black      ctermbg=none
 hi Folded          cterm=bold           ctermfg=Cyan       ctermbg=none
@@ -38,12 +36,7 @@ hi PmenuSel        cterm=none           ctermfg=Black      ctermbg=Grey
 hi PmenuSbar       cterm=none           ctermfg=Black      ctermbg=Grey
 hi PmenuThumb      cterm=reverse
 hi Question        cterm=none           ctermfg=Green
-hi Search          cterm=reverse        ctermfg=fg         ctermbg=none
 hi SpecialKey      cterm=none           ctermfg=LightRed
-hi SpellBad        ctermbg=Red
-hi SpellCap        ctermbg=Blue
-hi SpellRare       ctermbg=Magenta
-hi SpellLocal      ctermbg=Cyan
 hi StatusLine      cterm=bold,reverse   ctermfg=White      ctermbg=Black
 hi StatusLineNC    cterm=reverse        ctermfg=Gray       ctermbg=Black
 hi TabLine         cterm=underline      ctermfg=Gray
@@ -77,7 +70,7 @@ hi Ignore          cterm=none           ctermfg=DarkBlue
 hi Error           cterm=none           ctermfg=White      ctermbg=DarkRed
 hi Todo            cterm=bold           ctermfg=White      ctermbg=Gray
 
-hi Search          cterm=none           ctermfg=none       ctermbg=0
+hi Search          cterm=reverse        ctermfg=none       ctermbg=0
 
 hi DiffChange      cterm=none           ctermfg=none       ctermbg=0
 hi DiffText        cterm=none           ctermfg=1          ctermbg=0
@@ -88,6 +81,8 @@ hi SignColumn      cterm=none           ctermfg=1          ctermbg=none
 
 hi SpellBad        cterm=underline      ctermfg=1          ctermbg=none
 hi SpellLocal      cterm=underline      ctermfg=14         ctermbg=none
+hi SpellCap        cterm=underline      ctermfg=13         ctermbg=none
+hi SpellRare       cterm=underline      ctermfg=12         ctermbg=none
 
 hi pythonString    cterm=none           ctermfg=6          ctermbg=none
 hi pythonException cterm=none           ctermfg=1          ctermbg=none

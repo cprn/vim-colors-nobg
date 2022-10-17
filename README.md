@@ -1,10 +1,10 @@
 # vim-colors-nobg
 A color scheme for Vim run in a terminal (meant to be used with a console - no
-gui support). Works best with a semi-transparent dark background and a
-solarized color palette. Feel free to use it however you may.
+gui support). Works best with a semi-transparent dark background and your
+terminal color palette. Feel free to use it however you may.
 
 ## installation
-Use [vim-plug](https://github.com/junegunn/vim-plug).
+I recommend using [vim-plug](https://github.com/junegunn/vim-plug).
 
 ```
 call plug#begin()
@@ -14,7 +14,8 @@ call plug#end()
 ```
 
 ## terminal configuration
-Use `solarized` color palette. e.g. with `GNOME Terminal 3.6.x`:
+If you don't use `pywal` generated palettes, I recommend using `solarized`, e.g.
+in `GNOME Terminal 3.6.x`:
 
 1. go to `Edit` menu
 2. select `Profile preferences`
@@ -28,3 +29,5 @@ Load in vim or add to `.vimrc`:
 ```
 :colorscheme nobg
 ```
+# Atributions
+Support for `airline` and `lightline` copied from Dylan Arap's [wal.vim](https://github.com/dylanaraps/wal.vim).
